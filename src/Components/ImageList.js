@@ -12,14 +12,15 @@ class MyImageList extends React.Component {
         this.setState({ someAnimals: this.state.someAnimals +1 })
     }
     render() {
-
+        const animals = this.props.imageProp
         
-        const animalList = Images.map(singleAnimalObject => < MyImageItem animalProp={singleAnimalObject} />)
+        const animalPicture = animals.map(singleAnimalObject => <MyImageItem animalProp={singleAnimalObject} />)
+        console.log(this.props.imageProp)
         return (
             <div class="image-list">
             {/* <h2>{this.state.someAnimals}</h2> */}
             {/* <button onClick={this.increment}>Find!</button> */}
-            {animalList}
+            {animalPicture}
             </div>
         )
     }
