@@ -54,16 +54,25 @@
   color: black;
 }
 .images { 
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
   
+  
 }
 .image-container { 
   margin: 10px;
-  border: ;
-
+  margin-top: 5px;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  
+  
+}
+.myForm { 
+  background-color:  rgb(105, 161, 20) ;
+  margin-top: 5px;
 }
 
