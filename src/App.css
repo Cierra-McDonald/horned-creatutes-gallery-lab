@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #e7ce7d;
+  background-color: #75B9BE;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,28 +37,36 @@
   }
 }
 .header-div { 
-  background-color: #e7ce7d;
+  background-color:  #75B9BE;
   height: 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 25px;
-  color: rgb(105, 161, 20);
+  color: #D0D6B5;
   font-family:fantasy;
 
 }
 
 .image-list { 
-  background-color: rgb(105, 161, 20);
-  color: black;
+  color: #D0D6B5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
 }
 .images { 
-  width: 150px;
+  width: 200px;
   height: 150px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 45%;
   
   
 }
@@ -68,11 +76,17 @@
   align-items: center;
   height: 350px;
   width: 350px;
+  border: #F9B5AC 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   
   
 }
-.myForm { 
+/* .myForm { 
   background-color:  rgb(105, 161, 20) ;
   margin-top: 5px;
-}
+} */
 

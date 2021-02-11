@@ -9,7 +9,7 @@ class MyImageList extends React.Component {
     render() {
        
         return (
-            < ul class="image-list">
+            < ul className="image-list">
                 {this.props.filteredHornedAnimals.map(singleAnimalObject => 
             <MyImageItem 
             key={singleAnimalObject.title}

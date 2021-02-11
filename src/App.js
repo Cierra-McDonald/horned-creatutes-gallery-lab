@@ -55,6 +55,7 @@ class App extends React.Component {
     <div className="App">
       <Router>
         < MyHeader/>
+        
        Animal Search
         < Dropdown
         currentValue= {this.state.keyword}
